@@ -24,6 +24,7 @@ html {
 body {
     color: var(--white);
     font-family: 'Raleway';
+    letter-spacing: 1.5px;
 }
 
 header {
@@ -160,11 +161,19 @@ main p {
     color: var(--black);
     text-align: center;
     padding-top: 40px;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 .pros h3 {
     font-size: 30px;
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+.spacing {
+    letter-spacing: 8px;
 }
 
 #image-container {
